@@ -5,7 +5,7 @@ export function diceRoll() {
 export function fight(instigator, instigatee) {
   // let instigatorRoll = diceRoll()
   let minimumWinningRoll = 0;
-  // minimumWinningRoll = Math.floor(instigatee.hp/(instigator.hp + instigatee.hp)*20);
+  minimumWinningRoll = Math.floor(instigatee.hp/(instigator.hp + instigatee.hp)*20);
   return minimumWinningRoll;
 
   // if (instigator.includes(switchblade)) {
