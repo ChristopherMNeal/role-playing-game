@@ -1,10 +1,10 @@
 export default class Character {
-  constructor(type, skill, enemy) {
+  constructor(type, skill, hp) {
     this.type = type;
     this.skill = skill;
-    this.enemy = enemy;
+    this.hp = hp;
   }
-  // getArea() {
-  //   return this.side1 * this.side2;
-  // }
+  fight(character) {
+    
+  }
 }
