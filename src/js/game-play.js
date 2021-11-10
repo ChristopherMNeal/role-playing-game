@@ -2,12 +2,12 @@ export function diceRoll() {
   return (Math.floor(Math.random()) * 20) +1;
 }
 
-export fight(instigator, instigatee) {
+export function fight(instigator, instigatee) {
   // let instigatorRoll = diceRoll()
   let minimumWinningRoll = 0;
   // minimumWinningRoll = Math.floor(instigatee.hp/(instigator.hp + instigatee.hp)*20);
-  // return minimumWinningRoll
-  
+  return minimumWinningRoll;
+
   // if (instigator.includes(switchblade)) {
   //   instigatorRoll += 2
   // } else if (instigator.includes(strength)) {
