@@ -4,7 +4,12 @@ export default class Character {
     this.skill = skill;
     this.hp = hp;
   }
-  fight(character) {
-    
+  fight(character2) {
+    let instigatorWinner = (Math.floor(Math.random()) * 20) +1;
+    if (instigatorWinner > 10) {
+      return true;
+    } else {
+      return false;
+    }
   }
 }
