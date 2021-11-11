@@ -1,6 +1,9 @@
-import {diceRoll} from '../src/js/game-play.js';
-import { fight } from '../src/js/game-play';
+import {conclusion, diceRoll, fight} from '../src/js/game-play.js';
+// import { fight } from '../src/js/game-play';
 import { Character } from '../src/js/character';
+// import { conclusion } from '../src/js/game-play.js';
+import { character1 } from '../src/js/character.js';
+import { character2 } from '../src/js/character.js';
 
 describe ('diceRoll', () => {
   test('Should return a number between 1 and 20', () => {
@@ -49,3 +52,9 @@ describe ('fight', () => {
   });
 });
 
+describe ('conclusion', () => {
+  test('should return true if the user wins, false if the user loses', () => {
+    const winner = conclusion();
+    expect([true, false]).toContain(winner);
+  });
+});

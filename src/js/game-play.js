@@ -1,3 +1,5 @@
+import { character1, character2 } from "./character";
+
 export function diceRoll() {
   return (Math.floor(Math.random()) * 20) +1;
 }
@@ -30,4 +32,20 @@ export function fight(instigator, instigatee) {
     minimumWinningRoll;
   }
   return minimumWinningRoll;
+}
+
+export function conclusion() {
+  let rollResult = (diceRoll());
+  const player1 = character1;
+  const player2 = character2;
+  console.log(rollResult);
+  // const player1 = $("#player1form").val();
+  // const player2 = $("#player2form").val();
+  if (rollResult >= (fight(player1, player2))) {
+    console.log("you win");
+    return true;
+  } else {
+    console.log("you lose");
+    return false;
+  }
 }
