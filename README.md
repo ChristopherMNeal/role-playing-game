@@ -1,8 +1,8 @@
-# __
+# _Role Playing Game_
 
-#### Created By _**Christopher Neal**_
+#### Created By _**Christopher Neal & Zach Wilson**_
 
-#### _An application to_
+#### _A game to practice using npm and webpack._
 
 ## Technologies Used
 
@@ -17,7 +17,7 @@
 
 ## Description
 
-_This project was created for Epicodus bootcamp to show proficiency in. The application is for . The user can ._
+_This project was created for Epicodus bootcamp to show proficiency in npm and webpack. The user can play a fighting game as an 80s highschooler._
 
 ## Setup/Installation Requirements
 
@@ -26,15 +26,13 @@ _This project was created for Epicodus bootcamp to show proficiency in. The appl
 * _Run `npm run start` to start the application._
 * _Alternatively, you can run `npm run build` and open dist/index.html in your preferred browser._
 
-* _Or you can click [here](https://christophermneal.github.io/) to visit the page on gh-pages._
-
 ## Known Bugs
 
 _None at this time_
 
 ## Future Updates
 
-* __
+* _Build out UI._
 
 ## License
 
